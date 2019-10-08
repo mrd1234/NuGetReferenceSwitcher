@@ -26,6 +26,8 @@ using Window = System.Windows.Window;
 
 namespace NuGetReferenceSwitcher.Presentation.Views
 {
+    using System.Windows.Threading;
+
     /// <summary>Interaction logic for MainDialog.xaml </summary>
     public partial class MainDialog : DialogWindow
     {

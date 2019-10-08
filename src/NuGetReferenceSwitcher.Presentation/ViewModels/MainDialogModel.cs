@@ -15,8 +15,6 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Threading;
 using EnvDTE;
-using EnvDTE80;
-using MyToolkit.Build;
 using MyToolkit.Collections;
 using MyToolkit.Mvvm;
 using MyToolkit.Utilities;
@@ -25,6 +23,8 @@ using VSLangProj;
 
 namespace NuGetReferenceSwitcher.Presentation.ViewModels
 {
+    using MyToolkit.Build;
+
     public class MainDialogModel : ViewModelBase
     {
         private Assembly _extensionAssembly;
